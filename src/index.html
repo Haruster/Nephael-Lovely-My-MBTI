@@ -12,6 +12,8 @@
         <!--CSS 설정-->
         <link rel = "stylesheet" href = "./css/default.css">
         <link rel = "stylesheet" href = "./css/main.css">
+        <link rel = "stylesheet" href = "./css/qna.css">
+        <link rel = "stylesheet" href = "./css/animation.css">
         <!--Goole font-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet">
@@ -31,19 +33,25 @@
                 Kinesys의 MBTI사이트입니다. <br>
                 해당 버튼을 클릭하여 시작하세요.
             </p>
-            <button type="button" class="btn btn-outline-warning mt-3">테스트 시작하기</button>
+            <button type="button" class="btn btn-outline-warning mt-3" 
+            onclick = "js:begin()">테스트 시작하기</button>
             
         </section>
 
-        <section id = "qna"
-         style = "display : block;">
-            <p>h</p>
+        <section id = "qna">
+            <div class = "qBox my-5 py-3 mx-auto">
+            </div>
+            <div class = "answerBox">
+
+            </div>
          </section>
 
          <section id = "result"
          style = "display : none;">
 
          </section>
+         <script src = "./js/data.js" charset = "utf-8"></script>
+         <script src = "./js/start.js" charset = "utf-8"></script>
         </div>
     </body>
 </html>
