@@ -1,0 +1,8 @@
+/*main section에 해당하는 css*/
+
+#main {
+    background-color: white;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+}
