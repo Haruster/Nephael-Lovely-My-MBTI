@@ -1,8 +1,10 @@
-/*main section에 해당하는 css*/
+#main{
+  background-color: whitesmoke;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
 
-#main {
-    background-color: white;
-    width: 80%;
-    text-align: center;
-    border-radius: 20px;
+p{
+  font-size: 20px;
 }

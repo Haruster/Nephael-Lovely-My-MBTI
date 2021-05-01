@@ -1,10 +1,7 @@
-/*파일에 전체적으로 영향이 가는 css*/
-
 body {
     background-color: skyblue;
 }
 
 * {
-    font-size: 27px;
-    font-family: 'Cute Font', cursive;
+    font-family: 'Nanum Pen Script', cursive;
 }
