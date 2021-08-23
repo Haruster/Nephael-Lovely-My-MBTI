@@ -1,2 +1,2 @@
-# Kinesys-Lovely-My-MBTI
+# Nephael-Lovely-My-MBTI
 MBTI SITE
